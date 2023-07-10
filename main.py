@@ -15,6 +15,16 @@ def clear_screen():
 
 
 def operate_menu(menu_tuple, options):
+    """Contains the logic to move within the options delivered in the menu to the user
+
+    Args: 
+         - menu_tuple: contains the pairs of displayed options and the corresponding action 
+                       this can take you to another menu, process data or end the script.
+         - options: matches the displayed menu number, with the actual number of options allowing
+                    the logic to contain the specific number of choices
+
+    Returns: Nothing
+    """
     acceptable_options = options
     display_list = menu_tuple[0]
     command_list = menu_tuple[1]

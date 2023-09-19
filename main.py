@@ -1,4 +1,4 @@
-''' importing required modules '''
+""" importing required modules """
 import os
 import sys
 import menu_utilities
@@ -39,9 +39,8 @@ def operate_menu(menu_tuple, options):
             print(f'\n{option} no es una opción aceptable.\n')
 
 
-
 def exit_the_program():
-    """Prints an string, then exit the program. 
+    """Prints a string, then exit the program.
 
     Args: None
 
@@ -51,10 +50,9 @@ def exit_the_program():
     sys.exit()
 
 
-
 def dummy_function():
     """This is a dummy function, that only prints a line. 
-    Should be replaced later with the propper function.
+    Should be replaced later with the proper function.
 
     Args: None
 
